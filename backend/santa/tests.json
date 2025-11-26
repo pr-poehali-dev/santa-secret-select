@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "name": "Get participant count",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Register new participant",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "name": "Test User 123"
+      },
+      "expectedStatus": 200
+    }
+  ]
+}
